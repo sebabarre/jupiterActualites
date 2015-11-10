@@ -1,0 +1,16 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+
+[jnt:JupiterActualites] > jnt:content, jmix:socialComponent, jmix:structuredContent
+ - Date_de_l_article (date, datepicker)
+ - Titre_de_l_article (string)
+ - Image_d_illustration (weakreference, picker[type='image'])
+ - Introduction_de_l_article (string, richtext)
+ - Article (string, richtext)
+ - Document_telechargeable (weakreference, picker[type='file'])
+ - Article_Seconde_Partie (string, richtext)
+ - Image_d_illustration2 (weakreference, picker[type='image'])
+ - Image_d_illustration3 (weakreference, picker[type='image'])
+ - Image_d_illustration4 (weakreference, picker[type='image'])
+ - Texte_Pour_Partage (string)
+

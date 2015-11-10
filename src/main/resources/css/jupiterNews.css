@@ -1,0 +1,105 @@
+h3.titleJupiterNews {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+div.articleNewsVertical, div.articleNewsHorizontal, div.articleNews {
+  color: black;
+  font-size: 16px;
+}
+
+div.articleNewsHorizontal p.readMore br{
+	clear:both;
+}
+
+div.articleNewsVertical p.jupiterNewsDate, div.articleNewsHorizontal p.jupiterNewsDate{
+ margin-bottom: 5px; 
+  font-size: 14px;
+}
+
+div.articleNewsVertical .readMoreLink, div.articleNewsHorizontal .readMoreLink{
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+}
+
+div.articleNewsHorizontal img{
+  margin: 0 5px 5px 0;
+}
+
+div.articleNewsVertical img {
+ max-height: 150px;
+  max-width: auto;
+}
+ div.articleNewsColImg img {
+  width: 100%;
+}
+
+div.articleNews img {
+ width: 100%;
+}
+
+h3.titleJupiterNews, div.articleNews .Jupiterblue {
+ color: #5E87AF
+}
+
+div.articleNews hr {
+  margin: 1px;
+  height: 2px;
+  background-color: rgb(196,196,196);
+}
+
+div.shareJupiter {
+  width:70px;
+  height: 70px;
+  background-size: contain !important;
+  
+}
+
+div.shareJupiter{
+ 	display: inline-block;
+}
+
+div.shareLinkedin {
+ 	background-image: url('/modules/jupiteractualites/images/linkedin.png'); 
+}
+
+div.shareFacebook {
+  background-image: url('/modules/jupiteractualites/images/facebook.png');
+}
+
+div.shareTwitter {
+  background-image: url('/modules/jupiteractualites/images/twitter.png');
+}
+
+div.shareViadeo {
+  background-image: url('/modules/jupiteractualites/images/viadeo.png');
+}
+
+@media screen and (max-width: 992px) {
+  div.articleNewsHorizontal img{
+    max-height: 150px;
+    max-width: 100%;
+  }
+
+  div.articleNewsVertical img {
+    max-height: 150px;
+    max-width: auto;
+  	width: inherit;
+  	display: block;
+  }
+	
+  div.articleNewsHorizontal p.readMore {
+  	text-align: center;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  div.articleNewsHorizontal img{
+    width: 100%;
+  }
+}
+  
